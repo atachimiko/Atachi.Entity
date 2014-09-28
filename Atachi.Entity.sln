@@ -22,6 +22,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Afterthought", "Afterthough
 		ReferenceAssemblies\Afterthought\Afterthought.dll = ReferenceAssemblies\Afterthought\Afterthought.dll
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReferenceModules", "ReferenceModules", "{CB617433-2651-4D8E-97A7-CBA2AC5D3AC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Atachi.EntityFramework.Patterns", "Atachi.EntityFramework.Patterns", "{1D785C8B-9F78-4626-9E1B-DA4C60895D1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET4.0", ".NET4.0", "{5963B451-290D-4815-A08B-78241D623AD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET4.5", ".NET4.5", "{89F1ABB0-2F42-4970-9753-CA9BE8BCDA51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.Patterns", "ReferenceModules\Atachi.EntityFramework.Patterns\.NET4.0\EntityFramework.Patterns\EntityFramework.Patterns.csproj", "{990F3E58-0AF3-46BC-BBF7-3B55DA538B9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.Patterns", "ReferenceModules\Atachi.EntityFramework.Patterns\.NET4.5\EntityFramework.Patterns\EntityFramework.Patterns.csproj", "{BC8878E1-140E-4E68-9F53-1208BE4911C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +44,14 @@ Global
 		{3BE04445-06A1-4130-BA58-05521070C707}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BE04445-06A1-4130-BA58-05521070C707}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BE04445-06A1-4130-BA58-05521070C707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{990F3E58-0AF3-46BC-BBF7-3B55DA538B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{990F3E58-0AF3-46BC-BBF7-3B55DA538B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{990F3E58-0AF3-46BC-BBF7-3B55DA538B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{990F3E58-0AF3-46BC-BBF7-3B55DA538B9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC8878E1-140E-4E68-9F53-1208BE4911C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC8878E1-140E-4E68-9F53-1208BE4911C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC8878E1-140E-4E68-9F53-1208BE4911C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC8878E1-140E-4E68-9F53-1208BE4911C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,5 +59,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3BE04445-06A1-4130-BA58-05521070C707} = {7AAA1240-76BE-4D37-886C-90231FD58A1E}
 		{E6B4BABD-C36C-40D8-B511-B23F4320FE8F} = {4BA01FDD-DFD0-4C4D-9C4C-4FC86296FF51}
+		{1D785C8B-9F78-4626-9E1B-DA4C60895D1A} = {CB617433-2651-4D8E-97A7-CBA2AC5D3AC8}
+		{5963B451-290D-4815-A08B-78241D623AD2} = {1D785C8B-9F78-4626-9E1B-DA4C60895D1A}
+		{89F1ABB0-2F42-4970-9753-CA9BE8BCDA51} = {1D785C8B-9F78-4626-9E1B-DA4C60895D1A}
+		{990F3E58-0AF3-46BC-BBF7-3B55DA538B9B} = {5963B451-290D-4815-A08B-78241D623AD2}
+		{BC8878E1-140E-4E68-9F53-1208BE4911C8} = {89F1ABB0-2F42-4970-9753-CA9BE8BCDA51}
 	EndGlobalSection
 EndGlobal
