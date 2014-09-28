@@ -32,10 +32,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Atlib.Common, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\Atlib.Common.1.0.1.0\lib\net45\Atlib.Common.dll</HintPath>
-    </Reference>
     <Reference Include="EntityFramework">
       <HintPath>..\..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -101,6 +97,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\ReferenceModules\Atachi.Common\.NET4.5\Atachi.Common\Atachi.Common.csproj">
+      <Project>{f72b51e5-6f37-4267-a629-ec8193a75a79}</Project>
+      <Name>Atachi.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\ReferenceModules\Atachi.EntityFramework.Patterns\.NET4.5\EntityFramework.Patterns\EntityFramework.Patterns.csproj">
       <Project>{bc8878e1-140e-4e68-9f53-1208be4911c8}</Project>
       <Name>EntityFramework.Patterns</Name>

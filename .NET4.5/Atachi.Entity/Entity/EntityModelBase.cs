@@ -11,7 +11,6 @@ using System.Text;
 using System.Threading.Tasks;
 using ImpromptuInterface;
 using System.Data.Entity;
-using Atlib;
 using Atachi.Entity.Decorators;
 using Atachi.Entity.Infrastructures;
 using Atachi.Attributes;

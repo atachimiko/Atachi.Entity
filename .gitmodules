@@ -1,3 +1,6 @@
 [submodule "ReferenceModules/Atachi.EntityFramework.Patterns"]
 	path = ReferenceModules/Atachi.EntityFramework.Patterns
 	url = https://github.com/atachimiko/Atachi.EntityFramework.Patterns.git
+[submodule "ReferenceModules/Atachi.Common"]
+	path = ReferenceModules/Atachi.Common
+	url = https://github.com/atachimiko/Atachi.Common.git
